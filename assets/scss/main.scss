@@ -1,8 +1,7 @@
-@import "../bower_components/bourbon/app/assets/stylesheets/_bourbon";
-@import "../bower_components/neat/app/assets/stylesheets/_neat";
-@import "../bower_components/normalize/_normalize";
-@import "../bower_components/scss_rem/stylesheets/_rem.scss";
-@import "../bower_components/scss_scale/pems";
+@import "../components/bourbon/app/assets/stylesheets/_bourbon";
+@import "../components/neat/app/assets/stylesheets/_neat";
+@import "../components/normalize/_normalize";
+@import "../components/sass-mixins/sass-mixins";
 
 @import "_vars";
 @import "_mixins";
