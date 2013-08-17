@@ -2,13 +2,13 @@ timezone: Asia/Calcutta
 permalink: :title
 
 # Custom URL Git Repo URL
-# baseurl: ''
-# url: //sumaitri.net
+baseurl: ''
+url: //sumaitri.net
 
 # Default Git Repo URL
 # baseurl: /sumaitri
 # url: //vaibhavkanwal.github.io
 
 # Localhost Repo URL
-baseurl: ''
-url: http://localhost:4000
+# baseurl: ''
+# url: http://localhost:4000
