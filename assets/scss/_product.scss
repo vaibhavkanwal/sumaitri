@@ -1,0 +1,21 @@
+.product-page{
+
+	overflow:hidden;
+
+	.main-product{
+		float:right;
+		width:60%;
+	}
+
+	.side-product{
+		font-size:80%;
+		width:35%;
+		float:left;
+		line-height:normal;
+
+		a{
+			color:#444;
+			border:0;
+		}
+	}
+}

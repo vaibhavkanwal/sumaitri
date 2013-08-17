@@ -1,0 +1,12 @@
+{
+  "name": "normalize",
+  "homepage": "https://github.com/kristerkari/normalize.scss",
+  "_release": "db587c5126",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "db587c51268ee4e125e08d1cd515cd1029c79f3f"
+  },
+  "_source": "git://github.com/kristerkari/normalize.scss.git",
+  "_target": "*"
+}

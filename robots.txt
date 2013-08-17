@@ -1,0 +1,7 @@
+# Sitemap
+Sitemap: http://sterlingrasayan.com/sitemap.xml
+
+User-agent: *
+Disallow: /assets/
+Disallow: /scss/
+Disallow: /css/

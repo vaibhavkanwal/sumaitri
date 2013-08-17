@@ -1,0 +1,32 @@
+<meta charset="utf-8">
+
+<title>{% if page.meta.title %}{{ page.meta.title }}{% elsif page.title %}{{ page.title }}{% endif %}</title>
+
+<meta name="description" content="{% if page.meta.description %}{{ page.meta.description }}{% else %}{{ page.excerpt }}{% endif %}" />
+<meta name="keywords" content="{% if page.meta.keywords %}{{ page.meta.keywords }}{% endif %}" />
+<meta name="robots" content="{% if page.meta.robots %}{{ page.meta.robots }}{% else %}INDEX, FOLLOW{% endif %}" />
+
+{% if page.url == "/404.html" %}
+    <meta http-equiv="refresh" content="5; url={{ site.baseurl }}/contact">
+{% endif %}
+
+<meta name="google-site-verification" content="bo02m-bp48PTtwMuAP0jmrWaetWtSeKeoUuVTdkO7yE" />
+
+<link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/main.css" />
+
+{% if page.layout == 'products' %}
+	<link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/bower_components/magnific-popup/dist/magnific-popup.css" />
+	<script src="{{ site.url }}{{ site.baseurl }}/assets/bower_components/jquery/jquery.min.js"></script>
+	<script src="{{ site.url }}{{ site.baseurl }}/assets/bower_components/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+
+	<script>
+	$(document).ready(function() {
+  		$('.spec-popup').magnificPopup({
+  			type:'iframe'
+  		});
+	});
+	</script>
+
+{% endif %}
+
+{% include common/analytics.liquid %}

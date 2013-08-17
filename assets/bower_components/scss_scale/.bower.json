@@ -1,0 +1,11 @@
+{
+  "name": "scss_scale",
+  "_release": "a610758937",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "a6107589373e17b9ca55b1335b1c4a556f81ca11"
+  },
+  "_source": "git://gist.github.com/2237465.git",
+  "_target": "*"
+}
